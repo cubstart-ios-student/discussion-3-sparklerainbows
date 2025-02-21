@@ -29,9 +29,30 @@
 		7FA387CA2D68061B00A07C50 /* Discussion_threeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Discussion_threeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FAB1615B2D680E8B0072751E /* Exceptions for "Discussion_three" folder in "Discussion_three" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Problem1.swift,
+			);
+			target = 7FA387AF2D68061A00A07C50 /* Discussion_three */;
+		};
+		FAB1615C2D680E8B0072751E /* Exceptions for "Discussion_three" folder in "Discussion_threeTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Problem1.swift,
+			);
+			target = 7FA387BF2D68061B00A07C50 /* Discussion_threeTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		7FA387B22D68061A00A07C50 /* Discussion_three */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FAB1615B2D680E8B0072751E /* Exceptions for "Discussion_three" folder in "Discussion_three" target */,
+				FAB1615C2D680E8B0072751E /* Exceptions for "Discussion_three" folder in "Discussion_threeTests" target */,
+			);
 			path = Discussion_three;
 			sourceTree = "<group>";
 		};

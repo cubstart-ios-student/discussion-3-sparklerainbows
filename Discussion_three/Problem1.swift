@@ -14,10 +14,7 @@
 //As an intro to closures please make a closure that would organize people by from reverse alphabetically / numerical order
 
 func sortedOut(arry: [Int]) -> [Int] {
-    
-    
-    
-    return []
+    return arry.sorted(by:>)
 }
 
 // After Richard Lyons was elected, he employed Muski Oski to help remove
@@ -45,9 +42,9 @@ class ASUC {
 // He is efficient!
 
 func OSKI(agency funding : [ASUC]) -> [ASUC] {
-    
-    
-    return []
+    return funding.filter{
+        $0.money > 100000
+    }
 }
 
 
@@ -64,8 +61,12 @@ func OSKI(agency funding : [ASUC]) -> [ASUC] {
 //Also check out a reduce function too
 
 func XSKI(programs : [ASUC]) -> Int {
-    
-    
+    let total = programs.reduce(0){
+        $0 + ($1.money * $1.money)
+    }
+    programs.map {
+        $0.important = false
+    }
     return 0
 }
 //

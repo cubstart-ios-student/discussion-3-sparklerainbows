@@ -33,14 +33,14 @@ struct Valentines: View {
     var body: some View {
         Heart()
             //.sheet(isPresented: (variable right here) , content: {
-              //  Hidden()
-           // })
+              // Hidden()
+            }//)
     }
        
         
 //.toggle() is a modifier that changes a boolean from true to false and vice versa
     
-    private struct Heart: View {
+    private struct Heart: View 
         var body: some View {
             Button {
     
@@ -68,7 +68,7 @@ struct Valentines: View {
             }
         }
     }
-}
+
 
 //To change the view you are looking at simply just change the struct name in the #Preview
 

@@ -6,3 +6,5 @@
 // Look at the image and try to use foreach and list to recruit the image in the
 // project.
 
+
+
